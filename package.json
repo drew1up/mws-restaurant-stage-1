@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-responsive": "^2.13.0",
+    "gulp-responsive-images": "^0.0.4"
+  }
+}
