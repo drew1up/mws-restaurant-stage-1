@@ -190,7 +190,6 @@ nav h1 a {
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 87%;
-  position: fixed;
   right: 0;
   top: 80px;
   width: 50%;
@@ -273,7 +272,19 @@ nav h1 a {
 }
 
 /*=======================Responsive========================*/
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 500px) {
+  #restaurants-list li {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (min-width: 730px) {
+  #restaurants-list li {
+    width: calc(33% - 30px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
   #restaurants-list li {
     width: calc(20% - 30px);
   }
