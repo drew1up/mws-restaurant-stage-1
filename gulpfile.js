@@ -9,14 +9,14 @@ gulp.task('default', () => {
 				height: 210,
 				rename: {
 					suffix: 'sm',
-					extname: '.jpg'
+					extname: '.jpeg'
 				}
 			}, {
 				width: 384,
 				height: 288,
 				rename: {
 					suffix: '-md',
-					extname: '.jpg'
+					extname: '.jpeg'
 				}
 			}]
 		}))
