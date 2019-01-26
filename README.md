@@ -7,6 +7,7 @@ The app is created as part of the Udacity 'Front End Developer' Nanodegree.
 - All restaurants are marked on map via Google Maps api
 - Restaurants are listed by neighborhood and/or type of cuisine
 - Restaurant details such as hours of operation and reviews 
+- Service worker registered to cache requests to site's assets for offline 
 
 ## Installation
 
